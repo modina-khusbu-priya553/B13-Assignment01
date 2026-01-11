@@ -148,7 +148,7 @@ nav .logo{
     cursor: pointer;
 }
 
-#notes {
+#notes, #early-access {
     width: 100%;
     max-width: 1600px;
     padding: 0px 120px;
@@ -260,4 +260,37 @@ nav .logo{
     line-height: 20px;
     list-style: none;
     gap: 12px;
+}
+
+#early-access {
+    background-color: #F7F6F2;
+    width: 1300px;
+    height: 385px;
+    margin: 0 auto;
+    padding: 80px 40px 80px 40px;
+}
+#early-access .early-access-container{
+    display: block;
+    align-items: center;
+    text-align: center;
+    gap: 24px;    
+}
+
+.early-access-title{
+    margin-bottom: 16px;
+    padding-top: 40px;  
+}
+
+.early-access-message{
+    padding-bottom: 80px;
+}
+
+#early-access .early-access-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.early-access-message button img{
+    margin-left: 12px;
 }
