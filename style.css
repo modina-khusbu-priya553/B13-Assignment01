@@ -151,12 +151,12 @@ nav .logo{
 #notes {
     width: 100%;
     max-width: 1600px;
-    /* height: 448px; */
     padding: 0px 120px;
 }
 
 
 #notes .notes-container{
+    margin: 0 auto;
     text-align: center;
     width: 1360px;
     
@@ -170,7 +170,8 @@ nav .logo{
     font-size: 48px;
     font-weight: bold;
 }
-.notes-pera{
+/* change */
+.pera{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
@@ -190,7 +191,7 @@ nav .logo{
     /* height: 300px; */
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 6px 50px 0px rgba(59, 59, 59, 0.1);
+    box-shadow: 3px 3px 10px rgba(59, 59, 59, 0.1);
     
 }
 .note-card span{
@@ -208,4 +209,55 @@ nav .logo{
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 16px;
+}
+
+#brain{
+    width: 100%;
+    max-width: 1600px;
+}
+
+#brain .brain-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    padding: 120px;
+
+}
+
+.brain-container .brain-msg #section-message{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#469165;
+    margin-bottom: 16px;
+}
+.brain-container .brain-msg h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.brain-container .brain-list {
+    margin-top: 32px;   
+    
+}
+.brain-list ul{
+    list-style: none;          
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+    gap: 16px;                 
+
+}
+
+.brain-list li{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    gap: 12px;
 }
