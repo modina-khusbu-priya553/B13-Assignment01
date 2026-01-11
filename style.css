@@ -294,3 +294,49 @@ nav .logo{
 .early-access-message button img{
     margin-left: 12px;
 }
+
+.footer{
+    width: 100%;
+    max-width: 1600px;
+    background-color:#001931;
+    padding: 120px 120px 30px 120px;
+}
+
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer .footer-container .social-links p{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.footer .footer-container .social-links .icons{
+    background-color: #F7F6F2;
+    display: flex;
+    gap: 16px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+
+hr{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.footer .msg {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;   
+    text-align: center;
+}
+
+
+
+
+
