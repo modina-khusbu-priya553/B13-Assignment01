@@ -97,14 +97,15 @@ nav .logo{
     padding: 12px 8px;
     border-radius: 25px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
-#banner .banner-container .banner-text p span{
+/* #banner .banner-container .banner-text p span{
     width: 16px;
     height: 16px;
     background-color: #528a69;
     border-radius: 8px;
-}
+} */
 
 
 #banner .banner-container h1{
